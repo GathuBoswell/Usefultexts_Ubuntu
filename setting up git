@@ -1,0 +1,19 @@
+installing
+
+sudo apt-get update
+sudo apt-get install git
+
+setting up git account
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+
+checkng config to confirm
+
+git config --list
+
+
+making sure git works behind proxy:
+export http_proxy=http://http://i39%2F2140%2F201240students:vjh40uon@proxy.uonbi.ac.ke:80/
+
+git config --global http.proxy $http_proxy

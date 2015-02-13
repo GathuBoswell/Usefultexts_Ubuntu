@@ -1,0 +1,1 @@
+sudo env http_proxy=http://i39%2F2140%2F2012%40students:vjh%40uon@proxy.uonbi.ac.ke:80 https_proxy=https://i39%2F2140%2F2012%40students:vjh%40uon@proxy.uonbi.ac.ke:80 add-apt-repository ppa:linrunner/tlp

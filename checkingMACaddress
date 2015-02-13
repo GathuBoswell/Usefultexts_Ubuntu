@@ -1,0 +1,6 @@
+ifconfig
+this generates lots of useful info including ip addrress
+
+ifconfig | grep HWaddr
+this command generates the mac address only
+

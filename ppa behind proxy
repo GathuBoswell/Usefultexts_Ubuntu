@@ -1,0 +1,10 @@
+If you are working behind a proxy, make sure you export proxy settings
+
+
+export http_proxy=http://i39%2F2140%2F2012%40students:vjh%40uon@proxy.uonbi.ac.ke:80
+export https_proxy=$http_proxy
+export ftp_proxy=$http_proxy
+and then run add-apt-repository command with -E option
+
+sudo -E add-apt-repository ppa:terry.guo/gcc-arm-embedded
+sudo apt-get update

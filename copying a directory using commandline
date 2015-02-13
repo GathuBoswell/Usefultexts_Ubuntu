@@ -1,0 +1,4 @@
+sudo cp -r /"path of directory to move"/ /"path to move to"/
+eg: cp -r gcc-arm-embedded/ /usr/local
+
+

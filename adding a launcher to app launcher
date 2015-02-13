@@ -1,0 +1,21 @@
+ accepted
+	
+
+You should create a Desktop Entry first: Go in terminal and write:
+
+sudo gedit /usr/share/applications/adt.desktop
+
+and write inside of editor:
+
+[Desktop Entry]
+Name=ADT
+Type=Application
+Exec=/downloads/adt/eclipse/eclipse 
+Terminal=false
+Icon=/downloads/adt/eclipse/eclipse.xpm
+Comment=Any comment
+NoDisplay=false
+Categories=Development;IDE
+Name[en]=adt.desktop
+
+save and exit

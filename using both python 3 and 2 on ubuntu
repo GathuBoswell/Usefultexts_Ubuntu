@@ -1,0 +1,16 @@
+
+	
+
+Yes, you just need to install python3 package.
+
+$ sudo apt-get install python3
+
+Python 2.X will still be the default Python used, so if you want to run a script with Python 3.X you need to run
+
+$ python3 /path/to/script.py
+
+or add in the first line of your executable script:
+
+#!/usr/bin/env python3
+
+
